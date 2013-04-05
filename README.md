@@ -1,4 +1,0 @@
-compilers
-=========
-
-compilers labs
