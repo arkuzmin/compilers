@@ -1,20 +1,20 @@
 
 class RecursiveDescent:
 	# Grammar rules:
-	# S -> trueB			(S0)
-	# S -> falseB			(S1)
-	# S -> <identisier>B		(S2)
-	# S -> ~A				(S3)
-	# A -> trueB			(A0)
-	# A -> false B			(A1)
+	# S -> trueB			      (S0)
+	# S -> falseB			      (S1)
+	# S -> <identifier>B		(S2)
+	# S -> ~A				        (S3)
+	# A -> trueB			      (A0)
+	# A -> falseB			      (A1)
 	# A -> <identifier>B		(A2)
-	# B -> &C				(B0)
-	# B -> !C				(B1)
-	# B -> empty			(B2)
-	# C -> trueB			(C0)
-	# C -> falseB			(C1)
+	# B -> &C				        (B0)
+	# B -> !C				        (B1)
+	# B -> empty			      (B2)
+	# C -> trueB			      (C0)
+	# C -> falseB			      (C1)
 	# C -> <identifier>B		(C2)
-	# C -> ~A				(C3)
+	# C -> ~A				        (C3)
 
 	LETTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	DIGITS = "0123456789"
